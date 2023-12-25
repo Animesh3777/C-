@@ -1,5 +1,6 @@
 #include <iostream>
+using namespace std;
 
 int main(){
-    std::cout<<"Hello World!\n";
+    cout<<"Namaste Bharat!\n";
 }
