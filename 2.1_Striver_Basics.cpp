@@ -49,25 +49,42 @@ int main() {
     // }
     // return 0;
 
-    int marks;
-    cout<<"Enter marks"<<endl;
-    cin>>marks;
-    if(marks<40){
-        cout<<"F Grade"<<endl;
-    }
-        else if (marks<=44 ){
-        cout<<"E Grade"<<endl;
-    }
-    else if (marks<=49 ){
-        cout<<"D Grade"<<endl;
-    } 
-    else if (marks<=59 ){
-        cout<<"C Grade"<<endl;
-    }
-    else if (marks<=79 ){
-        cout<<"B Grade"<<endl;
-    }   
-    else 
-    cout<<"A Grade"<<endl;
-    return 0;
+    // int marks;
+    // cout<<"Enter marks"<<endl;
+    // cin>>marks;
+    // if(marks<40){
+    //     cout<<"F Grade"<<endl;
+    // }
+    //     else if (marks<=44 ){
+    //     cout<<"E Grade"<<endl;
+    // }
+    // else if (marks<=49 ){
+    //     cout<<"D Grade"<<endl;
+    // } 
+    // else if (marks<=59 ){
+    //     cout<<"C Grade"<<endl;
+    // }
+    // else if (marks<=79 ){
+    //     cout<<"B Grade"<<endl;
+    // }   
+    // else 
+    // cout<<"A Grade"<<endl;
+    // return 0;
+
+    // int age;
+    // cout<<"Enter your age : "<<endl;
+    // cin>>age;
+    // if (age<18){
+    //     cout<<"Not eligible for job";
+    // }
+    // else if (age<=57)
+    // {
+    //     cout<<"Eligible for job";
+    //     if(age>=55){
+    //         cout<<",but retirement soon";
+    //     }
+    // }
+    // else
+    // cout<<"Retirement line";
+    
 }      
