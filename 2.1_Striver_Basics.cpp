@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+// int main() {
     // Commented out code for integer and long data types
     // int x = 10;
     // long y = 15;
@@ -91,36 +91,131 @@ int main() {
     
 
     // Switch statement
-    int day;
-    cout<<"Enter day in number"<<endl;
-    cin>>day;
-    switch (day)
-    {
-    case 1:
-        cout<<"Monday";
-        break;   
-    case 2:
-        cout<<"Tuesday";
-        break;
-    case 3:
-        cout<<"Wednesday";
-        break;
-    case 4:
-        cout<<"Thursday";
-        break;
-    case 5:
-        cout<<"Friday";
-        break;
-    case 6:
-        cout<<"Saturday";
-        break;
-    case 7:
-        cout<<"Sunday";
-        break;
-    default:
-        cout<<"Inavlid";
-        break;
-    }
+    // int day;
+    // cout<<"Enter day in number"<<endl;
+    // cin>>day;
+    // switch (day)
+    // {
+    // case 1:
+    //     cout<<"Monday";
+    //     break;   
+    // case 2:
+    //     cout<<"Tuesday";
+    //     break;
+    // case 3:
+    //     cout<<"Wednesday";
+    //     break;
+    // case 4:
+    //     cout<<"Thursday";
+    //     break;
+    // case 5:
+    //     cout<<"Friday";
+    //     break;
+    // case 6:
+    //     cout<<"Saturday";
+    //     break;
+    // case 7:
+    //     cout<<"Sunday";
+    //     break;
+    // default:
+    //     cout<<"Inavlid";
+    //     break;
+    // }
 
+    // Array 1D
+    // int arr[5];
+    // cin >>arr[1]>>arr[2]>>arr[3]>>arr[4]>>arr[5];
+    // cout<<arr[3];
+    // return 0;
+
+    // 2D Array
+    // int arr[3][5];
+    // arr[1][3]=70;
+    // cout << arr[1] [3];
+    // return 0;
+
+    // Strings
+    // string s = "Animesh";
+    // // cout<<s[3];
+    // int len=s.size();
+    // cout<<s[len-1]; 
+    // return 0;
+
+    // For Loop
+    // int i;
+    // for (i=1;i<=10;i=i+1)
+    //     cout<<"Animesh "<<i<<endl;
     
-}      
+    // cout<<i<<endl;
+
+    // While Loop
+    // int i=1;
+    // while(i<=5) {
+    //     cout<<"Animesh"<<i<<endl;
+    //     i=i+1;
+    // }
+    // return 0;
+
+    // Do While
+    //     int i=2;
+    // do {
+    // cout<<"Animesh"<<i<<endl;
+    //     i=i+1;
+    // } 
+    // while(i<=1);
+    // cout<<i<<endl;
+    // return 0;
+
+    // Function
+
+// }      
+    // void printName(string name){
+    //     cout<<"Hey "<<name<<endl;
+    // }
+    // int main(){
+    //     string name;
+    //     cin>>name;
+    //     printName(name);
+
+    //     string name2;
+
+    //     cin>>name2;
+    //     printName(name2);
+
+    //     return 0;
+    // }
+
+    // pass by value
+//     void doSomething(int & num){
+//         cout<<num<<endl;
+//         num+=5;
+//         cout<<num<<endl;
+//         num+=5;
+//         cout<<num<<endl;
+    
+
+// }
+//     int main(){
+//         int num=5;
+//         doSomething(num);
+//         cout<<num<<endl;
+//         return 0;
+//     }
+
+        // pass by refrence
+        
+        void doSomething( int arr[], int n){
+            arr[0]+=100;
+            cout<<"Value inside function"<<arr[0]<<endl;
+        }
+        int main(){
+            int n=5;
+            int arr[5];
+            for(int i=0;i<=n-1;i=i+1){
+                cin>>arr[i];
+            }
+            doSomething(arr,n);
+            cout<<"Value inside int main:"<<arr[0]<<endl;
+            return 0;
+        }
+
