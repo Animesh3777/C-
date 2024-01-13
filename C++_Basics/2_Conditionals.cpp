@@ -101,8 +101,14 @@ using namespace std;
 //     }
 // }
 
+// int main(){
+//     for (int i=100; i>0;i=i/2){
+//         cout<<i<<endl;
+//     }
+// }
+
 int main(){
-    for (int i=100; i>0;i=i/2){
+    for (int i=5; (i>=0 && i<=10);i+=1){
         cout<<i<<endl;
     }
 }
