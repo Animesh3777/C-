@@ -107,8 +107,26 @@ using namespace std;
 //     }
 // }
 
-int main(){
-    for (int i=5; (i>=0 && i<=10);i+=1){
-        cout<<i<<endl;
-    }
-}
+// int main(){
+//     for (int i=5; (i>=0 && i<=10);i+=1){
+//         cout<<i<<endl;
+//     }
+// }
+
+// int main(){
+// int i=0;
+// for(; ; ){
+//     if(i<5)
+//     {
+//         cout<<i<<endl;
+//         i+=1;
+//     }
+// }
+// }
+
+// int main(){
+//     int n;
+//     if (cin>>n){
+//         cout<<"Animesh"<<endl;
+//     }
+// }
