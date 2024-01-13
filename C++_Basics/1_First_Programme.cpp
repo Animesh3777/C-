@@ -58,14 +58,14 @@ int main(){
     // cout<<a-b<<endl;
     // cout<<a/b<<endl;
 
-    // cout<<(5.0)/3;
-    // cout<<(a>b)<<endl;
-    // cout<<(a<b)<<endl;
-    // cout<<(a==b)<<endl;
-    // cout<<(a!=b)<<endl;
-    // cout<<(a>=b)<<endl;
-    // cout<<(a<=b)<<endl;
-// } 
+    cout<<(5.0)/3;
+    cout<<(a>b)<<endl;
+    cout<<(a<b)<<endl;
+    cout<<(a==b)<<endl;
+    cout<<(a!=b)<<endl;
+    cout<<(a>=b)<<endl;
+    cout<<(a<=b)<<endl;
+} 
 
     // if (a>=5 && b<=3)
     // if (a<5 || b>=3)
@@ -73,4 +73,4 @@ int main(){
     // cout<<!(a<5)<<endl;
         // cout<<"Limits reached"<<endl;
 
-}
+// }
